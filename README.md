@@ -8,7 +8,10 @@ WIP
 
 ## Features
 
-- text
-- text
+- Advanced search engine capabilities
+- Additional modules for ease of use
+- State-of-the-art encryption technology
+- 24/7 customer support
+- Much, much more
 
 ## Legality
