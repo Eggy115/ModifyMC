@@ -1,0 +1,21 @@
+function getTop() :: objects:
+  if {-top::sort} ? 1 second ago < now:
+    loop all offline players:
+      set {_sort::%time played of loop-value%.%loop-value%} to loop-value
+  set {-top::sorted::*} to reversed {_sort::*}
+  set {-top::sort} to 10 minutes later
+  set metadata tag "TopPlaytime" of ("d" parsed as a player) to chest inventory with 1 row named "&2&lPlaytime Top"
+  loop 9 times:
+    exit loop if {_top::%loop-number%}
+    set {_entry} to {-top::sorted::%loop-number%}
+    set slot (loop-number)-1 of metadata tag "TopPlaytime" of ("d" parsed as a player) to clock named "&a&l%{_entry}%" with lore "" and " &a* &lPlaytime: &f%time played of {_entry}%" and "" and " &a* &lPlace: &f##%loop-number%" and ""
+  return {-top::sorted::*}
+
+
+command /playtime [<text>]:
+    trigger:
+        if arg parsed as a offline player is set:
+            send formatted "&c%arg-1%&f has a playtime of &6<tooltip:time played of %arg-1%>%time played of (arg parsed as a player)%"
+        else:
+            set {_top::*} to getTop()
+            open metadata tag "TopPlaytime" of ("d" parsed as a player) to player
