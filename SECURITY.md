@@ -23,6 +23,14 @@ Commands will not be updated unless there are major updates to the game.
 
 Datapacks may be updated to each new version of the game. Legacy versions will not receive updates.       
 
+## Forge Mods
+
+None currently (not an issue)
+
+## Fabric Mods
+
+None currently (not an issue)
+
 ## Reporting a Vulnerability
 
 Report vulnerabilities through issues. Update time will depend on severity of issue.    
