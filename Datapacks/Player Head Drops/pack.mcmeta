@@ -1,0 +1,6 @@
+{
+	"pack": {
+		"pack_format": 12,
+		"description": [{"text":"Player Head Drops","color":"gold"},{"text":"\nDrop player heads on death","color":"green"}]
+	}
+}
