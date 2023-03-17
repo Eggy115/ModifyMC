@@ -8,9 +8,11 @@
 
 # Commands
 # Datapacks
+## Player Head Drops
 # Plugins
+WIP
 # Skript
-lmao
+List
 # Mods
 ## Forge
 ## Fabric
