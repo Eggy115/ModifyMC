@@ -493,7 +493,6 @@
 					{\"text\":\"\\\\n       \",\"color\":\"white\"},
 					{\"text\":\"Phssthpok\",\"color\":\"#87325d\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://twitter.com/MCPhssthpok\"}},
 					{\"text\":\"\\\\n\\\\n      \",\"color\":\"white\"},
-					{\"text\":\"Vanilla Tweaks\",\"color\":\"#81bfdc\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://vanillatweaks.net/\"}},
 					{\"text\":\"\\\\n      \",\"color\":\"white\"},
 					{\"text\":\"integration by\",\"color\":\"black\"},
 					{\"text\":\"\\\\n       \",\"color\":\"white\"},
