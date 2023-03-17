@@ -9,6 +9,7 @@
 # Commands
 # Datapacks
 ## Player Head Drops
+## Movable Armour (Armor) Stands
 # Plugins
 WIP
 # Skript
