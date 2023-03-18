@@ -11,10 +11,10 @@
 ## Player Head Drops
 ## Movable Armour Stands
 # Plugins
-WIP
+WIP `.jar`
 # Skript
 ## Overview
-List
+List `.sk`
 ## Requirements
 ## List
 # Mods
