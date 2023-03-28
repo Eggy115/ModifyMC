@@ -7,11 +7,11 @@
 
 ## Table of Contents
 
-- [Scripts](#scripts)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Disclaimer](#disclaimer)
+- [Commands](#Commands)
+- [Datapacks](#Datapacks)
+- [Plugins](#Plugins)
+- [Skript](#Skript)
+- [Mods](#Mods)
 
 # Commands
 
