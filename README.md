@@ -5,6 +5,13 @@
   Various Different Modifications for Minecraft Java
 </h3>
 
+## Table of Contents
+
+- [Scripts](#scripts)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Disclaimer](#disclaimer)
 
 # Commands
 
