@@ -2,15 +2,16 @@
 
 ## overview
 
-tellraw sends text
+`/tellraw` sends JSON messages to players
 
 ## syntax
 
-syntax is `/tellraw <selector> <msg>`
+syntax is `/tellraw <targets> <message>`
 
 ## selector
 
-selectors for tellraw are `<playername>`, `@a`, `@s`, `@r`, `@p`, and any kind of selector within e.g. `@a[count=1]`
+selectors for tellraw are `<playername>`, `@a`, `@s`, `@r`, `@p`, and any kind of selector within e.g. `@a[count=1]`    
+tellraw can be sent to any player, excluding all other entities    
 
 ## numbers
 
@@ -20,7 +21,8 @@ see numbers[numbers]
 ## basic text
 
 do ["fsddf"] or "hsdffsd" e.g. `/tellraw @a "hello"` or `/tellraw @p ["epic"]`
-you can also do `\u00a7` which is section sign or other fancy symbol like `\u00b1` 
+to add multiple lines, use `\n` e.g. `/tellraw @s "line 1\nline 2`    
+you can also do `\u00a7` which is section sign so you can get other colours or other fancy symbol like `\u00b1` 
 
 ## json text
 
