@@ -33,10 +33,16 @@ Skript is plugin
 List `.sk`
 
 ## Requirements
-- skript.jar
-- skunity
-- etc.
-- 
+- Minecraft `1.9+` | Some Skripts will require newer versions
+- Spigot or Paper (fork of Spigot) | CraftBukkit will not work
+- Skript
+Some skript may require:
+- SkBee
+- skDragon
+- SkQuery
+- skRayFall
+- Other Skript addons
+
 ## List
 1.sk    
 2.sk
