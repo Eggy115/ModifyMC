@@ -12,6 +12,9 @@
 - [Plugins](#Plugins)
 - [Skript](#Skript)
 - [Mods](#Mods)
+- [Contributing](#contributing)
+- [License](#license)
+- [Disclaimer](#disclaimer)
 
 # Commands
 
