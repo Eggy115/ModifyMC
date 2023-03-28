@@ -36,7 +36,8 @@ these all just display numbers
 ## basic text
 
 to display simply text use `/tellraw <targets> ["<text>"]` or `/tellraw <targets> "<text>"` 
-
+it has to be `"`, `'` will not work  
+ 
 ```py
 /tellraw @a "hello"
 
