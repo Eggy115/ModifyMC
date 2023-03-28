@@ -63,10 +63,17 @@ Some skript may require:
 - 2.sk - does that
 
 # Mods
-Mods are .jar
+
+Mods (short for modifications) change Minecraft's game content in some way, such as to make minor adjustments to the game's mechanics or implement entirely new features. Mods are `.jar`.    
+
 ## Forge
-WIP
+
+Forge is an Autodesk set of APIs and services used by software developers to build innovative cloud-powered apps.
+
 ## Fabric
-WIP
+
+Fabric API is the library for essential hooks and interoperability mechanisms for Fabric mods. 
+
 ## EggyHax
-WIP
+
+Hello
