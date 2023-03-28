@@ -7,6 +7,9 @@
 
 
 # Commands
+
+Commands, also known as console commands and slash commands, are advanced features activated by typing certain strings of text.
+    
 Documentation for various different Minecraft commands and examples of them.   
 Here is a list of commands so far:
    
