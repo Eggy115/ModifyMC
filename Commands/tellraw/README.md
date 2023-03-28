@@ -19,19 +19,54 @@ to do numbers do `/tellraw <targets> <number>`
 
 ```py
 /tellraw @a 0134342342
+
 /tellraw @s 25
+
 /tellraw @r 5.5
+
 /tellraw @p 0
+
 /tellraw Eggy115 -3
+
 /tellraw @a -3.221
 ```
+   
+these all just display numbers
 
 ## basic text
 
-do ["fsddf"] or "hsdffsd" e.g. `/tellraw @a "hello"` or `/tellraw @p ["epic"]`     
-to add multiple lines, use `\n` e.g. `/tellraw @s "line 1\nline 2`       
-you can also do `\u00a7` which is section sign so you can get other colours       
-or other fancy symbol like `"\u00b9\u00b2\u00b3"` which would have to the power of 1, 2, 3     
+to display simply text use `/tellraw <targets> ["<text>"]` or `/tellraw <targets> "<text>"` 
+
+```py
+/tellraw @a "hello"
+
+/tellraw Eggy115 ["yeah, whooo"]
+```
+
+to add multiple lines, use `\n`
+
+```py
+/tellraw @s "\nline 1\nline 2"
+```
+
+to escape characters, use `\`
+
+```py
+/tellraw @a "hello \"world\" "
+```
+
+you can also do `\u00a7` which is section sign so you can get colours and effects
+
+```py
+/tellraw @a "\u00a7ahello"
+```
+
+or you can use to get other fancy symbol
+
+```py
+/tellraw @r `"\u00b9\u00b2\u00b3"
+```     
+
 
 ## json text
 
