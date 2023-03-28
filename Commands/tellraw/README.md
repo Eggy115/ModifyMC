@@ -40,24 +40,41 @@ javascript object notation is special text
 /tellraw Eggy115 {"text":"hello"}
 ```
     
-colour `{"text":"hello","color":"green"}`    
+### colour 
+
+`{"text":"hello","color":"green"}`    
     
-special `{"text":"text","bold":"true"}`     
+### effects 
+
+`{"text":"text","bold":"true"}`     
         
-both `{"text":"text","color":"red","italic":"true"}`
+### colour & effects
+
+`{"text":"text","color":"red","italic":"true"}`
     
-multiple `[{"text":"helloooo ","color":"gold"},{"text":"more text","color":"blue"}]`
+### multiple colours 
+
+`[{"text":"helloooo ","color":"gold"},{"text":"more text","color":"blue"}]`
     
-multiplemore `[{"text":"some text here","color":"blue","underlined":"true"},{"text":" and more text","color":"light_purple","obfuscated":"false"}]`   
+### multiple colours & effects 
+
+`[{"text":"some text here","color":"blue","underlined":"true"},{"text":" and more text","color":"light_purple","obfuscated":"false"}]`   
     
-web links `{"text":"url","clickEvent":{"action":"open_url","value":"https://github.com/Eggy115"}}`   
+### web links 
+
+`{"text":"url","clickEvent":{"action":"open_url","value":"https://github.com/Eggy115"}}`   
    
-run command `{"text":"run command","clickEvent":{"action":"run_command","value":"say hello"}}`     
+### run command 
+
+`{"text":"run command","clickEvent":{"action":"run_command","value":"say hello"}}`     
    
-suggest command `{"text":"suggest command","clickEvent":{"action":"suggest_command","value":"/say hello"}}`    
+### suggest command 
+
+`{"text":"suggest command","clickEvent":{"action":"suggest_command","value":"/say hello"}}`    
     
-copy `{"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"i just got copied"}}`        
+### copy 
+
+`{"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"i just got copied"}}`        
     
 hovertext ` `    
-    
-suggest ` `   
+      
