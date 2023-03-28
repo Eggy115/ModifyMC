@@ -33,23 +33,25 @@ javascript object notation is special text
 - `SPECIAL` = `reset`:`r`, `bold`:`l`, `italic`:`o`, `underlinec`:`n`, `strikethrough`:`m`, `obfuscated`:`k`
 - `BOOLEAN` = `true`, `false`
 
-normal text `{"text":":"TEXT"}`       
+normal text `{"text":":"hello"}`       
     
-colour `{"text":"TEXT","color":"COLOUR"}`    
+colour `{"text":"hello","color":"green"}`    
     
-special `{"text":"TEXT","SPECIAL":"BOOLEAN"}`     
+special `{"text":"text","bold":"true"}`     
         
-both `{"text":"TEXT","color":"COLOUR","SPECIAL":"BOOLEAN"}`
+both `{"text":"text","color":"red","italic":"true"}`
     
-multiple `[{"text":"TEXT","color":"COLOUR"},{"text":"TEXT","color":"COLOUR"}]`
+multiple `[{"text":"helloooo ","color":"gold"},{"text":"more text","color":"blue"}]`
     
-multiplemore `[{"text":"TEXT","color":"COLOUR","SPECIAL":"BOOLEAN"},{"text":"TEXT","color":"COLOUR","SPECIAL":"BOOLEAN"}]`   
+multiplemore `[{"text":"some text here","color":"blue","underlined":"true"},{"text":" and more text","color":"light_purple","obfuscated":"false"}]`   
     
-web links ` `   
+web links `{"text":"url","clickEvent":{"action":"open_url","value":"https://github.com/Eggy115"}}`   
    
-run command ` `     
+run command `{"text":"run command","clickEvent":{"action":"run_command","value":"say hello"}}`     
    
-chat ` `    
+suggest command `{"text":"suggest command","clickEvent":{"action":"suggest_command","value":"/say hello"}}`    
+    
+copy `{"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"i just got copied"}}`        
     
 hovertext ` `    
     
