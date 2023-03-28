@@ -127,9 +127,13 @@ to translate messages use
 
 #### keybind
 
+to show keybind thay player has for certain action   
+
 ```py
 /tellraw @p {"keybind":"key.jump"}
 ```
+
+in this example you look at their keybind for the action `key.jump`, which will usually print `Space`
 
 #### objective
 
