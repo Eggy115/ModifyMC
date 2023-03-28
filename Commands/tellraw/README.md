@@ -35,7 +35,7 @@ these all just display numbers
 
 ## basic text
 
-to display simply text use `/tellraw <targets> ["<text>"]` or `/tellraw <targets> "<text>"` 
+to display simply text use `/tellraw <targets> ["<text>"]` or `/tellraw <targets> "<text>"`       
 it has to be `"`, `'` will not work  
  
 ```py
@@ -78,57 +78,106 @@ javascript object notation is special text
 
 ### normal text 
 
+to display normal text the proper way, use `{"text":"message here"}`
+
 ```py
 /tellraw Eggy115 {"text":"hello"}
+/tellraw @a {"text":"this is a fun message"}
+```
+
+to display multiple sections of text, use `[]`
+
+```py
+/tellraw @a [{"text":"hello"},{"text":" world"}]
 ```
     
 ### colour 
 
-`{"text":"hello","color":"green"}`    
+to have colour, use `{"text":"put your text here","color":"put colour here"}`    
+
+```py
+/tellraw @a {"text":"hello","color":"green"}
+```
     
 ### effects 
 
-`{"text":"text","bold":"true"}`     
+to add effects like bold use `{"text":"text here","effect":"true/false"}`     
+
+```py
+/tellraw @s {"text":"epic","bold":"true"}
+```
         
-### colour & effects
+### combining
 
-`{"text":"text","color":"red","italic":"true"}`
+to have both colour and effects
+
+```py
+/tellraw Eggy115 {"text":"text","color":"red","italic":"true"}
+```
+
+to have multiple colours    
+
+```py
+[{"text":"helloooo ","color":"gold"},{"text":"more text","color":"blue"}]
+```
     
-### multiple colours 
+and to have multiple colours and effects
 
-`[{"text":"helloooo ","color":"gold"},{"text":"more text","color":"blue"}]`
-    
-### multiple colours & effects 
-
-`[{"text":"some text here","color":"blue","underlined":"true"},{"text":" and more text","color":"light_purple","obfuscated":"false"}]`   
+```py
+[{"text":"some text here","color":"blue","underlined":"true"},{"text":" and more text","color":"light_purple","obfuscated":"false"}]
+```
     
 ### web links 
 
-`{"text":"url","clickEvent":{"action":"open_url","value":"https://github.com/Eggy115"}}`   
+to have web link
+
+```py
+/tellraw @r {"text":"url","clickEvent":{"action":"open_url","value":"https://github.com/Eggy115"}}
+```
    
 ### run command 
 
-`{"text":"run command","clickEvent":{"action":"run_command","value":"say hello"}}`     
+run command
+
+```py
+/tellraw @p {"text":"run command","clickEvent":{"action":"run_command","value":"say hello"}}
+```
    
 ### suggest command 
 
-`{"text":"suggest command","clickEvent":{"action":"suggest_command","value":"/say hello"}}`    
+suggest command or message
+
+```py
+/tellraw @s {"text":"suggest command","clickEvent":{"action":"suggest_command","value":"/say hello"}}
+```
     
 ### copy 
 
-`{"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"i just got copied"}}`        
+copy to clipboard
+
+```py
+/tellraw @a {"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"i just got copied"}}
+```
     
 ### hoverEvent 
 
 #### show_text
 
+show text
+
+```py
 /tellraw @p {"text":"hover","hoverEvent":{"action":"show_text","contents":[{"text":"hello"}]}}
 /tellraw @p {"text":"hover","hoverEvent":{"action":"show_text","contents":[{"text":"hello"}]}}
+```
 
 #### show_item
 
+display item
+
+```py
 /tellraw @p {"text":"hover","hoverEvent":{"action":"show_item","contents":"diamond"}}
 /tellraw @p {"text":"hover","hoverEvent":{"action":"show_item","contents":"dirt"}}
+```
 
 ### show_entity
 
@@ -136,7 +185,8 @@ can't get this to work
 
 #### fonts
 
+```py
 /tellraw @p {"text":"font","font":"minecraft:default"}
 /tellraw @p {"text":"font","font":"minecraft:illageralt"}
 /tellraw @p {"text":"font","font":"minecraft:alt"}
-      
+```  
