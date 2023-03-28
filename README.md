@@ -84,3 +84,15 @@ Fabric API is the library for essential hooks and interoperability mechanisms fo
 ## EggyHax
 
 Hello
+
+# Contributing
+
+Contributions to this repository are welcome and encouraged. If you have a command, datapack, plugin, mod, skript etc. that you think would be useful for others, please feel free to submit a pull request with your code. Please make sure to include a description of what your code does and how it can be used.
+
+# License
+
+All code in this repository is licensed under the GPL v3 License. See the `LICENSE` file for more information.
+
+# Disclaimer
+
+While we have taken care to ensure that all code in this repository is working and free of errors, we cannot guarantee that it will work in every situation or with every project. Use at your own risk.
