@@ -8,9 +8,9 @@
 
 # Commands
 
-Commands, also known as console commands and slash commands, are advanced features activated by typing certain strings of text.
+Commands, also known as console commands and slash commands, are advanced features activated by typing certain strings of text. They can be executed in command blocks and datapacks or via chat.
     
-Documentation for various different Minecraft commands and examples of them.   
+This repository contains documentation for various different Minecraft commands and examples of them.   
 Here is a list of commands so far:
    
 - /tellraw
@@ -37,12 +37,14 @@ Hello
 
 # Skript
 
-Skript is plugin    
-List `.sk`
+Skript is a Minecraft plugin for Paper/Spigot, which allows server owners and other people to modify their servers without learning Java.      
+Custom skripts are located in the scripts folder within the Skript folder, and should end in `.sk`.   
+To enable, disable, and reload scripts, use the command `/sk`.     
+Within the Skripts folder are a collection of different `.sk` files.   
 
 ## Requirements
 - Minecraft `1.9+`
-- Spigot or Paper (fork of Spigot) | CraftBukkit will not work
+- Spigot *or* Paper (fork of Spigot) | **CraftBukkit will not work**
 - Skript
 
 Some skript may require:
@@ -55,8 +57,8 @@ Some skript may require:
 - Other Skript addons
 
 ## List
-1.sk    
-2.sk
+- 1.sk - does this    
+- 2.sk - does that
 
 # Mods
 Mods are .jar
