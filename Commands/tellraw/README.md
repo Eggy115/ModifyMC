@@ -179,11 +179,13 @@ display item
 /tellraw @p {"text":"hover","hoverEvent":{"action":"show_item","contents":"dirt"}}
 ```
 
-### show_entity
+#### show_entity
 
 can't get this to work
 
-#### fonts
+### fonts
+
+to have different fonts
 
 ```py
 /tellraw @p {"text":"font","font":"minecraft:default"}
