@@ -15,8 +15,8 @@ tellraw can be sent to any player, excluding all other entities
 
 ## numbers
 
-to do numbers do `/tellraw <selector> <number>` e.g. `/tellraw @a 0134342342`    
-see numbers[numbers]
+to do numbers do `/tellraw <targets> <number>`   
+e.g. `/tellraw @a 0134342342`    
 
 ## basic text
 
