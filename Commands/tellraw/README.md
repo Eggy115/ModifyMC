@@ -16,7 +16,15 @@ tellraw can be sent to any player, excluding all other entities
 ## numbers
 
 to do numbers do `/tellraw <targets> <number>`   
-e.g. `/tellraw @a 0134342342`    
+
+```py
+/tellraw @a 0134342342
+/tellraw @s 25
+/tellraw @r 5.5
+/tellraw @p 0
+/tellraw Eggy115 -3
+/tellraw @a -3.221
+```
 
 ## basic text
 
