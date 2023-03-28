@@ -36,7 +36,7 @@ javascript object notation is special text
 
 ### normal text 
 
-```json
+```py
 /tellraw Eggy115 {"text":"hello"}
 ```
     
