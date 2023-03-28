@@ -24,9 +24,11 @@ Allow movement of armour stands
 # Plugins
 WIP `.jar`
 
+## Plugin 1
+Hello
+
 # Skript
 
-## Overview
 Skript is plugin    
 List `.sk`
 
