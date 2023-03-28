@@ -9,10 +9,7 @@
 # Commands
 Documentation for Minecraft commands and examples.
    
-- /setblock
 - /tellraw
-- /title
-- /summon
 
 # Datapacks
 
