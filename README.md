@@ -36,7 +36,9 @@ List `.sk`
 - Minecraft `1.9+` | Some Skripts will require newer versions
 - Spigot or Paper (fork of Spigot) | CraftBukkit will not work
 - Skript
+
 Some skript may require:
+
 - SkBee
 - skDragon
 - SkQuery
