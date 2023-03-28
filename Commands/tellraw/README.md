@@ -76,6 +76,41 @@ javascript object notation is special text
 - `COLOUR` = `black`:`0`, `dark_blue`:`1`, `dark_green`:`2`, `dark_aqua`:`3`, `dark_red`:`4`, `dark_purple`:`5`, `gold`:`6`, `light_gray`:`7`, `gray`:`8`, `blue`:`9`, `green`:`a`, `aqua`:`b`, `red`:`c`, `light_purple`:`d`, `yellow`:`e`, `white`:`f`
 - `EFFECTS` = `reset`:`r`, `bold`:`l`, `italic`:`o`, `underlined`:`n`, `strikethrough`:`m`, `obfuscated`:`k`
 
+### display types
+
+display types are what kind of thing you are displaying
+
+#### text
+
+```py
+{"text":"text"}
+```
+
+#### translate
+
+```py
+/tellraw @p {"translate":"value","fallback":"fallback","with":["with"]}
+```
+
+#### keybind
+
+```py
+/tellraw @p {"keybind":"key.jump"}
+```
+
+#### objective
+
+```py
+/tellraw @p {"score":{"name":"@p","objective":"Kills"}}
+```
+
+#### selector
+
+```py
+/tellraw @p {"selector":"@p"}
+```
+
+
 ### normal text 
 
 to display normal text the proper way, use `{"text":"message here"}`
