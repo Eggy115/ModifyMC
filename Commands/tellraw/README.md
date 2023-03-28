@@ -74,5 +74,25 @@ javascript object notation is special text
 
 `{"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"i just got copied"}}`        
     
-hovertext ` `    
+### hoverEvent 
+
+#### show_text
+
+/tellraw @p {"text":"hover","hoverEvent":{"action":"show_text","contents":[{"text":"hello"}]}}
+/tellraw @p {"text":"hover","hoverEvent":{"action":"show_text","contents":[{"text":"hello"}]}}
+
+#### show_item
+
+/tellraw @p {"text":"hover","hoverEvent":{"action":"show_item","contents":"diamond"}}
+/tellraw @p {"text":"hover","hoverEvent":{"action":"show_item","contents":"dirt"}}
+
+### show_entity
+
+can't get this to work
+
+#### fonts
+
+/tellraw @p {"text":"font","font":"minecraft:default"}
+/tellraw @p {"text":"font","font":"minecraft:illageralt"}
+/tellraw @p {"text":"font","font":"minecraft:alt"}
       
