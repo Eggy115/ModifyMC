@@ -30,7 +30,9 @@ Drop player heads on death
 Allow movement of armour stands
 
 # Plugins
-WIP `.jar`
+A plugin (or a multiplayer plug-in) is an additive file for a Minecraft multiplayer server. Plugins do not change the game itself, as a mod does. Plugins are usually written in java and end in `.jar`.    
+
+All plugins in this repository are written for paper, and may or may not work on other versions.   
 
 ## Plugin 1
 Hello
