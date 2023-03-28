@@ -7,15 +7,21 @@
 
 
 # Commands
-Documentation for Minecraft commands and examples.
+Documentation for various different Minecraft commands and examples of them.   
+Here is a list of commands so far:
    
 - /tellraw
 
 # Datapacks
 
+The data pack system provides a way for players to further customize their Minecraft experience. Data packs can be used to override or add new advancements, dimensions, functions, loot tables, predicates, item modifiers, recipes, structures, tags, damage types, world generation settings, and biomes without any code modification.
+
 ## Player Head Drops
+
 Drop player heads on death
+
 ## Movable Armour Stands
+
 Allow movement of armour stands
 
 # Plugins
