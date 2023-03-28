@@ -106,10 +106,33 @@ display types are what kind of thing you are displaying
 
 #### selector
 
+any kind of selector can be used
+
 ```py
 /tellraw @p {"selector":"@p"}
 ```
 
+#### nbt
+
+for entity
+
+```py
+/tellraw @p {"nbt":"value","entity":"entity","interpret":true/false}
+```
+
+for block
+
+```py
+/tellraw @p {"nbt":"value","block":"~ ~ ~","interpret":true/false}
+```
+
+for storage
+
+```py
+/tellraw @p {"nbt":"value","storage":"storage","interpret":true/false}
+```
+
+```py
 
 ### normal text 
 
