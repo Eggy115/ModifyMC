@@ -33,12 +33,13 @@ Skript is plugin
 List `.sk`
 
 ## Requirements
-- Minecraft `1.9+` | Some Skripts will require newer versions
+- Minecraft `1.9+`
 - Spigot or Paper (fork of Spigot) | CraftBukkit will not work
 - Skript
 
 Some skript may require:
 
+- Newer Minecraft versions
 - SkBee
 - skDragon
 - SkQuery
