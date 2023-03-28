@@ -22,7 +22,8 @@ e.g. `/tellraw @a 0134342342`
 
 do ["fsddf"] or "hsdffsd" e.g. `/tellraw @a "hello"` or `/tellraw @p ["epic"]`
 to add multiple lines, use `\n` e.g. `/tellraw @s "line 1\nline 2`    
-you can also do `\u00a7` which is section sign so you can get other colours or other fancy symbol like `\u00b1` 
+you can also do `\u00a7` which is section sign so you can get other colours 
+or other fancy symbol like `"\u00b9\u00b2\u00b3"` which would have to the power of 1, 2, 3 
 
 ## json text
 
@@ -33,7 +34,11 @@ javascript object notation is special text
 - `SPECIAL` = `reset`:`r`, `bold`:`l`, `italic`:`o`, `underlinec`:`n`, `strikethrough`:`m`, `obfuscated`:`k`
 - `BOOLEAN` = `true`, `false`
 
-normal text `{"text":":"hello"}`       
+### normal text 
+
+```json
+/tellraw Eggy115 {"text":"hello"}
+```
     
 colour `{"text":"hello","color":"green"}`    
     
