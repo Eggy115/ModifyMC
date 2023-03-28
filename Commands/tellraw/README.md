@@ -30,7 +30,7 @@ javascript object notation is special text
     
 - `TEXT` = whatever text you want    
 - `COLOUR` = `black`:`0`, `dark_blue`:`1`, `dark_green`:`2`, `dark_aqua`:`3`, `dark_red`:`4`, `dark_purple`:`5`, `gold`:`6`, `light_gray`:`7`, `gray`:`8`, `blue`:`9`, `green`:`a`, `aqua`:`b`, `red`:`c`, `light_purple`:`d`, `yellow`:`e`, `white`:`f`
-- `SPECIAL` = `reset`:`r`, `bold`:`l`, `italic`:`o`, `underline`:`n`, `strikethrough`:`m`, `obfuscated`:`k`
+- `SPECIAL` = `reset`:`r`, `bold`:`l`, `italic`:`o`, `underlinec`:`n`, `strikethrough`:`m`, `obfuscated`:`k`
 - `BOOLEAN` = `true`, `false`
 
 normal text `{"text":":"TEXT"}`       
