@@ -82,11 +82,15 @@ display types are what kind of thing you are displaying
 
 #### text
 
+to display simple text use
+
 ```py
 {"text":"text"}
 ```
 
 #### translate
+
+to translate messages use
 
 ```py
 /tellraw @p {"translate":"value","fallback":"fallback","with":["with"]}
@@ -100,13 +104,15 @@ display types are what kind of thing you are displaying
 
 #### objective
 
+to display object use score. name is name of the person you want to show. objective is the scoreboard you are keeping track of.
+
 ```py
 /tellraw @p {"score":{"name":"@p","objective":"Kills"}}
 ```
 
 #### selector
 
-any kind of selector can be used
+any kind of selector can be used e.g. @p, @a, and it will replace it with the appropriate information.
 
 ```py
 /tellraw @p {"selector":"@p"}
@@ -114,13 +120,13 @@ any kind of selector can be used
 
 #### nbt
 
-for entity
+for entity's information
 
 ```py
 /tellraw @p {"nbt":"value","entity":"entity","interpret":true/false}
 ```
 
-for block
+for a block's nbt
 
 ```py
 /tellraw @p {"nbt":"value","block":"~ ~ ~","interpret":true/false}
@@ -131,8 +137,6 @@ for storage
 ```py
 /tellraw @p {"nbt":"value","storage":"storage","interpret":true/false}
 ```
-
-```py
 
 ### normal text 
 
@@ -167,6 +171,9 @@ to add effects like bold use `{"text":"text here","effect":"true/false"}`
         
 ### combining
 
+note: it is not just text that can use colours and effects    
+selectors, translate, nbt, etc. can all be colourised    
+    
 to have both colour and effects
 
 ```py
