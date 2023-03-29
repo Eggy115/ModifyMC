@@ -75,7 +75,7 @@ you can also do `\u00a7` which is section sign (`§`) so you can get colours and
 /tellraw @a ["\u00a7dLIGHT PURPLE TEXT"]
 /tellraw @a ["\u00a7eYELLOW TEXT"]
 /tellraw @a ["\u00a7fWHITE TEXT"]
-/tellraw @a ["\u00a7bBOLD TEXT"]
+/tellraw @a ["\u00a7lBOLD TEXT"]
 /tellraw @a ["\u00a7oITALIC TEXT"]
 /tellraw @a ["\u00a7mSTRIKETHROUGH TEXT"]
 /tellraw @a ["\u00a7nUNDERLINED TEXT"]
