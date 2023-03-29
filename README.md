@@ -3,10 +3,12 @@
 </h1>
 
 <p align="center">
+
 [![GitHub issues](https://img.shields.io/github/issues/Eggy115/ModifyMC)](https://github.com/Eggy115/ModifyMC/issues)
 [![GitHub forks](https://img.shields.io/github/forks/Eggy115/ModifyMC)](https://github.com/Eggy115/ModifyMC/network)
 [![GitHub stars](https://img.shields.io/github/stars/Eggy115/ModifyMC)](https://github.com/Eggy115/ModifyMC/stargazers)
 [![GitHub license](https://img.shields.io/github/license/Eggy115/ModifyMC)](https://github.com/Eggy115/ModifyMC/blob/main/LICENSE)
+
 </p>
 
 <h3 align="center">
