@@ -193,7 +193,15 @@ to have colour, use `{"text":"put your text here","color":"put colour here"}`
 ```py
 /tellraw @a {"text":"hello","color":"green"}
 ```
-    
+  
+### hex code colour
+
+to make colours with hex code, replace the colour with `#` and then the hex code    
+
+```py
+/tellraw @p {"text":"hex code","color":"#FF0000"}
+```
+  
 ### effects 
 
 to add effects like bold use `{"text":"text here","effect":"true/false"}`     
