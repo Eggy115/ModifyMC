@@ -9,7 +9,7 @@
 
 - [Commands](#Commands)
 - [Datapacks](#Datapacks)
-  - [Plugins](#Plugins)
+  - [Requirements](#Requirements)
 - [Plugins](#Plugins)
 - [Skript](#Skript)
 - [Mods](#Mods)
