@@ -94,7 +94,7 @@ and you can combine them too
 or you can use to get other fancy symbol
 
 ```py
-/tellraw @r `"\u00b9\u00b2\u00b3"
+/tellraw @r "\u00b9\u00b2\u00b3"
 ```     
 
 
