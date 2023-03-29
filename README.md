@@ -9,9 +9,10 @@
 
 - [Commands](#Commands)
 - [Datapacks](#Datapacks)
-  - [Player-Head-Drops](#Player-Head-Drops)
-  - [Movable-Armour-Stands](#Movable-Armour-Stands)
+  - [Player Head Drops](#Player-Head-Drops)
+  - [Movable Armour Stands](#Movable-Armour-Stands)
 - [Plugins](#Plugins)
+  - [Plugin 1](#Plugin-1)
 - [Skript](#Skript)
   - [Requirements](#Requirements)
   - [List](#List)  
