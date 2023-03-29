@@ -2,6 +2,10 @@
   ModifyMC
 </h1>
 
+<h3 align="center">
+  Various Different Modifications for Minecraft Java
+</h3>
+
 <div align="center">
 
 [![GitHub issues](https://img.shields.io/github/issues/Eggy115/ModifyMC)](https://github.com/Eggy115/ModifyMC/issues)
@@ -10,10 +14,6 @@
 [![GitHub license](https://img.shields.io/github/license/Eggy115/ModifyMC)](https://github.com/Eggy115/ModifyMC/blob/main/LICENSE)
 
 </div>
-
-<h3 align="center">
-  Various Different Modifications for Minecraft Java
-</h3>
 
 ## Table of Contents
 
