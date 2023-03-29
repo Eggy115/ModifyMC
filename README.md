@@ -2,9 +2,9 @@
   ModifyMC
 </h1>
 
-<h3 align="center">
+<h2 align="center">
   Various Different Modifications for Minecraft Java
-</h3>
+</h2>
 
 <div align="center">
 
