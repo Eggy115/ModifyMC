@@ -275,7 +275,7 @@ show text
 
 ```py
 /tellraw @p {"text":"hover","hoverEvent":{"action":"show_text","contents":[{"text":"hello"}]}}
-/tellraw @p {"text":"hover","hoverEvent":{"action":"show_text","contents":[{"text":"hello"}]}}
+/tellraw @p {"text":"hover","hoverEvent":{"action":"show_text","contents":[{"text":"green hovertext","color":"green"}]}}
 ```
 
 ### show_item
