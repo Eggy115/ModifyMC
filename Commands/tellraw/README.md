@@ -1,6 +1,8 @@
-# tellraw
+<h1 align="center">
+  tellraw
+</h1>
 
-## overview
+# overview
 
 `/tellraw` sends JSON messages to players
 
@@ -13,7 +15,7 @@ syntax is `/tellraw <targets> <message>`
 selectors for tellraw are `<playername>`, `@a`, `@s`, `@r`, `@p`, and any kind of selector within e.g. `@a[count=1]`    
 tellraw can be sent to any player, excluding all other entities    
 
-## numbers
+# displaying numbers
 
 to do numbers do `/tellraw <targets> <number>`   
 
@@ -33,7 +35,7 @@ to do numbers do `/tellraw <targets> <number>`
    
 these all just display numbers
 
-## basic text
+# basic text
 
 to display simply text use `/tellraw <targets> ["<text>"]` or `/tellraw <targets> "<text>"`       
 it has to be `"`, `'` will not work  
@@ -98,18 +100,18 @@ or you can use to get other fancy symbol
 ```     
 
 
-## json text
+# json text
 
 javascript object notation is special text    
    
 - `COLOUR` = `black`:`0`, `dark_blue`:`1`, `dark_green`:`2`, `dark_aqua`:`3`, `dark_red`:`4`, `dark_purple`:`5`, `gold`:`6`, `light_gray`:`7`, `gray`:`8`, `blue`:`9`, `green`:`a`, `aqua`:`b`, `red`:`c`, `light_purple`:`d`, `yellow`:`e`, `white`:`f`
 - `EFFECTS` = `reset`:`r`, `bold`:`l`, `italic`:`o`, `underlined`:`n`, `strikethrough`:`m`, `obfuscated`:`k`
 
-### display types
+## display types
 
 display types are what kind of thing you are displaying
 
-#### text
+### text
 
 to display simple text use
 
@@ -117,7 +119,7 @@ to display simple text use
 {"text":"text"}
 ```
 
-#### translate
+### translate
 
 to translate messages use
 
@@ -125,7 +127,7 @@ to translate messages use
 /tellraw @p {"translate":"value","fallback":"fallback","with":["with"]}
 ```
 
-#### keybind
+### keybind
 
 to show keybind thay player has for certain action   
 
@@ -135,7 +137,7 @@ to show keybind thay player has for certain action
 
 in this example you look at their keybind for the action `key.jump`, which will usually print `Space`
 
-#### objective
+### objective
 
 to display object use score. name is name of the person you want to show. objective is the scoreboard you are keeping track of.
 
@@ -143,7 +145,7 @@ to display object use score. name is name of the person you want to show. object
 /tellraw @p {"score":{"name":"@p","objective":"Kills"}}
 ```
 
-#### selector
+### selector
 
 any kind of selector can be used e.g. @p, @a, and it will replace it with the appropriate information.
 
@@ -151,7 +153,7 @@ any kind of selector can be used e.g. @p, @a, and it will replace it with the ap
 /tellraw @p {"selector":"@p"}
 ```
 
-#### nbt
+### nbt
 
 for entity's information
 
@@ -171,7 +173,7 @@ for storage
 /tellraw @p {"nbt":"value","storage":"storage","interpret":true/false}
 ```
 
-### normal text 
+## normal text 
 
 to display normal text the proper way, use `{"text":"message here"}`
 
@@ -186,7 +188,7 @@ to display multiple sections of text, use `[]`
 /tellraw @a [{"text":"hello"},{"text":" world"}]
 ```
     
-### colour 
+## colour 
 
 to have colour, use `{"text":"put your text here","color":"put colour here"}`    
 
@@ -202,7 +204,7 @@ to make colours with hex code, replace the colour with `#` and then the hex code
 /tellraw @p {"text":"hex code","color":"#FF0000"}
 ```
   
-### effects 
+## effects 
 
 to add effects like bold use `{"text":"text here","effect":"true/false"}`     
 
@@ -233,7 +235,7 @@ and to have multiple colours and effects
 [{"text":"some text here","color":"blue","underlined":"true"},{"text":" and more text","color":"light_purple","obfuscated":"false"}]
 ```
     
-### web links 
+## web links 
 
 to have web link
 
@@ -241,7 +243,7 @@ to have web link
 /tellraw @r {"text":"url","clickEvent":{"action":"open_url","value":"https://github.com/Eggy115"}}
 ```
    
-### run command 
+## run command 
 
 run command
 
@@ -249,7 +251,7 @@ run command
 /tellraw @p {"text":"run command","clickEvent":{"action":"run_command","value":"say hello"}}
 ```
    
-### suggest command 
+## suggest command 
 
 suggest command or message
 
@@ -257,7 +259,7 @@ suggest command or message
 /tellraw @s {"text":"suggest command","clickEvent":{"action":"suggest_command","value":"/say hello"}}
 ```
     
-### copy 
+## copy 
 
 copy to clipboard
 
@@ -265,9 +267,9 @@ copy to clipboard
 /tellraw @a {"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"i just got copied"}}
 ```
     
-### hoverEvent 
+## hoverEvent 
 
-#### show_text
+### show_text
 
 show text
 
@@ -276,7 +278,7 @@ show text
 /tellraw @p {"text":"hover","hoverEvent":{"action":"show_text","contents":[{"text":"hello"}]}}
 ```
 
-#### show_item
+### show_item
 
 display item
 
@@ -285,11 +287,11 @@ display item
 /tellraw @p {"text":"hover","hoverEvent":{"action":"show_item","contents":"dirt"}}
 ```
 
-#### show_entity
+### show_entity
 
 can't get this to work
 
-### fonts
+## fonts
 
 to have different fonts
 
