@@ -9,7 +9,7 @@
 
 - [Commands](#Commands)
 - [Datapacks](#Datapacks)
-  - [Player Head Drops](#Player Head Drops)
+  - [Plugins](#Plugins)
 - [Plugins](#Plugins)
 - [Skript](#Skript)
 - [Mods](#Mods)
