@@ -4,8 +4,6 @@
 
 # overview
 
-## about
-
 `/tellraw` sends JSON messages to players
 
 ## syntax
