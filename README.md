@@ -41,7 +41,7 @@ Commands, also known as console commands and slash commands, are advanced featur
 This repository contains documentation for various different Minecraft commands and examples of them.   
 Here is a list of commands so far:
    
-- /tellraw
+- [/tellraw](./Commands/tellraw)
 
 # Datapacks
 
