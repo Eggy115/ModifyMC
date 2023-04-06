@@ -87,7 +87,6 @@ Some skript may require:
 
 ## List
 
-```
 airdrop.sk
 altmaster.sk
 antibot.sk
@@ -141,8 +140,6 @@ to the surface.sk
 troll commands.sk
 usertracker.sk
 worldedit.sk
-worldgui.sk
-```
 
 # Mods
 
