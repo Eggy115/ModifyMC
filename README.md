@@ -39,7 +39,7 @@
 Commands, also known as console commands and slash commands, are advanced features activated by typing certain strings of text. They can be executed in command blocks and datapacks or via chat.
     
 This repository contains documentation for various different Minecraft commands and examples of them.   
-Here is a list of commands so far:
+Here is a list of documented commands so far:
    
 - [/tellraw](./Commands/tellraw)
 
