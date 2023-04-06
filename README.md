@@ -108,11 +108,11 @@ Hello
 
 # Contributing
 
-Contributions to this repository are welcome and encouraged. If you have a command, datapack, plugin, mod, skript etc. that you think would be useful for others, please feel free to submit a pull request with your code. Please make sure to include a description of what your code does and how it can be used.
+Contributions to this repository are welcome and encouraged. If you have a command, datapack, plugin, mod, skript etc. that you think would be useful for others, please feel free to submit a pull request with your code. Please make sure to include a description of what your code does and how it can be used. See the [CONTRIBUTING](./CONTRIBUTING.md) file for more information.
 
 # License
 
-All code in this repository is licensed under the GPL v3 License. See the `LICENSE` file for more information.
+All code in this repository is licensed under the GPL v3 License. See the [LICENSE](./LICENSE) file for more information.
 
 # Disclaimer
 
