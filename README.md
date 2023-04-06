@@ -86,8 +86,63 @@ Some skript may require:
 - Other Skript addons
 
 ## List
-- 1.sk - does this    
-- 2.sk - does that
+
+```
+airdrop.sk
+altmaster.sk
+antibot.sk
+auction house.sk
+backpack.sk
+backpacks.sk
+bank notes.sk
+boostpads.sk
+bootleg essentials.sk
+bounties.sk
+captcha.sk
+chairs.sk
+chat emotes.sk
+chatty.sk
+clearlag.sk
+command blocker.sk
+command.sk
+commandspy.sk
+coolmathgamesdotcom.sk
+door password.sk
+easy economy.sk
+easy scoreboard.sk
+elevators.sk
+friends.sk
+gamemode.sk
+headstones.sk
+hearts.sk
+invsee.sk
+itemgui.sk
+lazykits.sk
+litevanish.sk
+lootboxes.sk
+mines.sk
+mutechat.sk
+notebook.sk
+playerslots.sk
+playtime.sk
+polls.sk
+private vaults.sk
+punishments.sk
+rank vouchers.sk
+reports.sk
+rtp.sk
+sellwands.sk
+simple economy.sk
+skriptmineslite.sk
+skriptspawn.sk
+staffchat.sk
+superchat.sk
+to the surface.sk
+troll commands.sk
+usertracker.sk
+worldedit.sk
+worldgui.sk
+```
 
 # Mods
 
