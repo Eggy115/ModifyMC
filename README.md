@@ -116,4 +116,4 @@ All code in this repository is licensed under the GPL v3 License. See the [LICEN
 
 # Disclaimer
 
-While we have taken care to ensure that all code in this repository is working and free of errors, we cannot guarantee that it will work in every situation or with every project. Use at your own risk.
+While we have taken care to ensure that all code in this repository is working and free of errors, we cannot guarantee that it will work in every situation, with every project, or with every version. Use at your own risk.
