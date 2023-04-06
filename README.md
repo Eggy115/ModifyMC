@@ -29,7 +29,6 @@
 - [Mods](#Mods)
   - [Forge](#Forge)
   - [Fabric](#Fabric)
-  - [EggyHax](#EggyHax)  
 - [Contributing](#contributing)
 - [License](#license)
 - [Disclaimer](#disclaimer)
@@ -101,10 +100,6 @@ Forge is an Autodesk set of APIs and services used by software developers to bui
 ## Fabric
 
 Fabric API is the library for essential hooks and interoperability mechanisms for Fabric mods. 
-
-## EggyHax
-
-Hello
 
 # Contributing
 
