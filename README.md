@@ -97,7 +97,7 @@ Some skript may require:
 - [airdrop.sk](./Skript/airdrop.sk)
 - [altmaster.sk](./Skript/altmaster.sk)
 - [antibot.sk](./Skript/antibot.sk)
-- [auction house.sk](./Skript/auction house.sk)
+- [auction house.sk](./Skript/auction%20house.sk)
 - [backpack.sk](./Skript/backpack.sk)
 - [backpacks.sk](./Skript/backpacks.sk)
 - [bank notes.sk](./Skript/bank notes.sk)
