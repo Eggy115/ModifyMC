@@ -166,11 +166,11 @@ ZenScript is a domain-specific scripting language used in the popular modding fr
 
 ## List
 
-- `diamond sword recipe.zs` - changes diamond sword recipe
+- [diamond sword recipe.zs](ZenScript/diamond sword recipe.zs) - changes diamond sword recipe
 
 # Contributing
 
-Contributions to this repository are welcome and encouraged. If you have a command, datapack, plugin, mod, skript etc. that you think would be useful for others, please feel free to submit a pull request with your code. Please make sure to include a description of what your code does and how it can be used. See the [CONTRIBUTING](./CONTRIBUTING.md) file for more information.
+Contributions to this repository are welcome and encouraged. If you have a command, datapack, plugin, mod, skript etc. that you think would be useful for others, please feel free to submit a pull request with your code. Please make sure to include a description of what your code does and how it can be used. See the [contributing guidlines](./CONTRIBUTING.md) for more information. Please make sure to adhere to the [code of conduct](CODE_OF_CONDUCT.md)
 
 # License
 
