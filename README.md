@@ -29,6 +29,8 @@
 - [Mods](#Mods)
   - [Forge](#Forge)
   - [Fabric](#Fabric)
+- [ZenScript](#zenscript)
+  - [List](#List) 
 - [Contributing](#contributing)
 - [License](#license)
 - [Disclaimer](#disclaimer)
@@ -157,6 +159,14 @@ Forge is an Autodesk set of APIs and services used by software developers to bui
 ## Fabric
 
 Fabric API is the library for essential hooks and interoperability mechanisms for Fabric mods. 
+
+# ZenScript
+
+ZenScript is a domain-specific scripting language used in the popular modding framework called CraftTweaker for the game Minecraft. It allows players to customize and modify various aspects of the game, such as recipes, item properties, and gameplay mechanics. ZenScript is designed to be simple and easy to use, with a syntax that resembles JavaScript.
+
+## List
+
+- `diamond sword recipe.zs` - changes diamond sword recipe
 
 # Contributing
 
