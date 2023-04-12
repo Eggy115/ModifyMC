@@ -53,6 +53,10 @@ This repository contains some different datapacks I have collected and made.
 - [World Pregenerator](./Datapacks/World%20Pregenerator) - generates worlds
 - [Example](./Datapacks/Example) - blank template
 
+It also contains various `.mcfunction`, `mcmeta`, and `.json` examples:
+
+- [raycasting.mcfunction](./Datapacks/raycasting.mcfunction) - raycasting example
+
 # Plugins
 A plugin (or a multiplayer plug-in) is an additive file for a Minecraft multiplayer server. Plugins do not change the game itself, as a mod does. Plugins are usually written in java and end in `.jar`.    
 
