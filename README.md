@@ -19,9 +19,6 @@
 
 - [Commands](#Commands)
 - [Datapacks](#Datapacks)
-  - [Player Head Drops](#Player-Head-Drops)
-  - [Movable Armour Stands](#Movable-Armour-Stands)
-  - [World Pregenerator](#world-pregenerator)  
 - [Plugins](#Plugins)
   - [Plugin 1](#Plugin-1)
 - [Skript](#Skript)
@@ -51,21 +48,10 @@ The data pack system provides a way for players to further customize their Minec
    
 This repository contains some different datapacks I have collected and made.
 
-## Player Head Drops
-
-Drop player heads on death
-
-## Movable Armour Stands
-
-Allow movement of armour stands
-
-## World Pregenerator
-
-Generates world
-
-## Example
-
-Blank template
+- [Player Head Drops](./Datapacks/) - drop player heads on death
+- [Movable Armour Stands](./Datapacks/) - modify armour stands
+- [World Pregenerator](./Datapacks/World%20%Pregenerator) - generates worlds
+- [Example](./Datapacks/Example) - blank template
 
 # Plugins
 A plugin (or a multiplayer plug-in) is an additive file for a Minecraft multiplayer server. Plugins do not change the game itself, as a mod does. Plugins are usually written in java and end in `.jar`.    
