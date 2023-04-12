@@ -162,8 +162,8 @@ ZenScript is a domain-specific scripting language used in the popular modding fr
 ## Scripts
 
 - [diamond sword recipe.zs](./ZenScript/diamond_sword_recipe.zs) - changes diamond sword recipe
-- [iron pickaxe recipe.zs](./ZenScript/iron_pickaxe_recipe.zs) - changes diamond sword recipe
-- [custom recipe.zs](./ZenScript/custom_recipe.zs) - changes diamond sword recipe
+- [iron pickaxe recipe.zs](./ZenScript/iron_pickaxe_recipe.zs) - changes iron pickaxe recipe
+- [custom recipe.zs](./ZenScript/custom_recipe.zs) - create custom recipe
 
 # Contributing
 
