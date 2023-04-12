@@ -15,7 +15,7 @@
 
 </div>
 
-## Table of Contents#
+## Table of Contents
 
 - [Commands](#Commands)
 - [Datapacks](#Datapacks)
