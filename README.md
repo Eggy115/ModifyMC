@@ -94,60 +94,60 @@ Some skript may require:
 
 ## List
 
-- `airdrop.sk` -
-- `altmaster.sk` -
-- `antibot.sk` -
-- `auction house.sk` -
-- `backpack.sk` -
-- `backpacks.sk` -
-- `bank notes.sk` -
-- `boostpads.sk` -
-- `bootleg essentials.sk` -
-- `bounties.sk` -
-- `captcha.sk` -
-- `chairs.sk` -
-- `chat emotes.sk` -
-- `chatty.sk` -
-- `clearlag.sk` -
-- `command blocker.sk` -
-- `command.sk` -
-- `commandspy.sk` -
-- `coolmathgamesdotcom.sk` -
-- `door password.sk` -
-- `easy economy.sk` -
-- `easy scoreboard.sk` -
-- `elevators.sk` -
-- `friends.sk` -
-- `gamemode.sk` -
-- `headstones.sk` -
-- `hearts.sk` -
-- `invsee.sk` -
-- `itemgui.sk` -
-- `lazykits.sk` -
-- `litevanish.sk` -
-- `lootboxes.sk` -
-- `mines.sk` -
-- `mutechat.sk` -
-- `notebook.sk` -
-- `playerslots.sk` -
-- `playtime.sk` -
-- `polls.sk` -
-- `private vaults.sk` -
-- `punishments.sk` -
-- `rank vouchers.sk` -
-- `reports.sk` -
-- `rtp.sk` -
-- `sellwands.sk` -
-- `simple economy.sk` -
-- `skriptmineslite.sk` -
-- `skriptspawn.sk` -
-- `staffchat.sk` -
-- `superchat.sk` -
-- `to the surface.sk` -
-- `troll commands.sk` -
-- `usertracker.sk` -
-- `worldedit.sk` -
-- `worldgui.sk` -
+- [airdrop.sk](./Skript/airdrop.sk)
+- [altmaster.sk](./Skript/altmaster.sk)
+- [antibot.sk](./Skript/antibot.sk)
+- [auction house.sk](./Skript/auction house.sk)
+- [backpack.sk](./Skript/backpack.sk)
+- [backpacks.sk](./Skript/backpacks.sk)
+- [bank notes.sk](./Skript/bank notes.sk)
+- [boostpads.sk](./Skript/boostpads.sk)
+- [bootleg essentials.sk](./Skript/bootleg essentials.sk)
+- [bounties.sk](./Skript/bounties.sk)
+- [captcha.sk](./Skript/captcha.sk)
+- [chairs.sk](./Skript/chairs.sk)
+- [chat emotes.sk](./Skript/chat emotes.sk)
+- [chatty.sk](./Skript/chatty.sk)
+- [clearlag.sk](./Skript/clearlag.sk)
+- [command blocker.sk](./Skript/command blocker.sk)
+- [command.sk](./Skript/command.sk)
+- [commandspy.sk](./Skript/commandspy.sk)
+- [coolmathgamesdotcom.sk](./Skript/coolmathgamesdotcom.sk)
+- [door password.sk](./Skript/door password.sk)
+- [easy economy.sk](./Skript/easy economy.sk)
+- [easy scoreboard.sk](./Skript/easy scoreboard.sk)
+- [elevators.sk](./Skript/elevators.sk)
+- [friends.sk](./Skript/friends.sk)
+- [gamemode.sk](./Skript/gamemode.sk)
+- [headstones.sk](./Skript/headstones.sk)
+- [hearts.sk](./Skript/hearts.sk)
+- [invsee.sk](./Skript/invsee.sk)
+- [itemgui.sk](./Skript/itemgui.sk)
+- [lazykits.sk](./Skript/lazykits.sk)
+- [litevanish.sk](./Skript/litevanish.sk)
+- [lootboxes.sk](./Skript/lootboxes.sk)
+- [mines.sk](./Skript/mines.sk)
+- [mutechat.sk](./Skript/mutechat.sk)
+- [notebook.sk](./Skript/notebook.sk)
+- [playerslots.sk](./Skript/playerslots.sk)
+- [playtime.sk](./Skript/playtime.sk)
+- [polls.sk](./Skript/polls.sk)
+- [private vaults.sk](./Skript/private vaults.sk)
+- [punishments.sk](./Skript/punishments.sk)
+- [rank vouchers.sk](./Skript/rank vouchers.sk)
+- [reports.sk](./Skript/reports.sk)
+- [rtp.sk](./Skript/rtp.sk)
+- [sellwands.sk](./Skript/sellwands.sk)
+- [simple economy.sk](./Skript/simple economy.sk)
+- [skriptmineslite.sk](./Skript/skriptmineslite.sk)
+- [skriptspawn.sk](./Skript/skriptspawn.sk)
+- [staffchat.sk](./Skript/staffchat.sk)
+- [superchat.sk](./Skript/superchat.sk)
+- [to the surface.sk](./Skript/to the surface.sk)
+- [troll commands.sk](./Skript/troll commands.sk)
+- [usertracker.sk](./Skript/usertracker.sk)
+- [worldedit.sk](./Skript/worldedit.sk)
+- [worldgui.sk](./Skript/worldgui.sk)
 
 # Mods
 
