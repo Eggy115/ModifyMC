@@ -48,9 +48,9 @@ The data pack system provides a way for players to further customize their Minec
    
 This repository contains some different datapacks I have collected and made.
 
-- [Player Head Drops](./Datapacks/) - drop player heads on death
-- [Movable Armour Stands](./Datapacks/) - modify armour stands
-- [World Pregenerator](./Datapacks/World%20%Pregenerator) - generates worlds
+- [Player Head Drops](./Datapacks/Player%20Head%20Drops) - drop player heads on death
+- [Movable Armour Stands](./Datapacks/Movable%20Armour%20Stands) - modify armour stands
+- [World Pregenerator](./Datapacks/World%20Pregenerator) - generates worlds
 - [Example](./Datapacks/Example) - blank template
 
 # Plugins
