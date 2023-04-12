@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-  Various Different Modifications for Minecraft Java
+  Modifications for Minecraft Java
 </h2>
 
 <div align="center">
