@@ -63,6 +63,10 @@ Allow movement of armour stands
 
 Generates world
 
+## Example
+
+Blank template
+
 # Plugins
 A plugin (or a multiplayer plug-in) is an additive file for a Minecraft multiplayer server. Plugins do not change the game itself, as a mod does. Plugins are usually written in java and end in `.jar`.    
 
