@@ -96,7 +96,7 @@ and you can combine them too
 or you can use to get other fancy symbol
 
 ```py
-/tellraw @r "\u00b9\u00b2\u00b3"
+/tellraw @r "\u00b9\u00b2\u00b3" (¹²³)
 ```     
 
 
@@ -265,6 +265,8 @@ copy to clipboard
 
 ```py
 /tellraw @a {"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"i just got copied"}}
+/tellraw @a {"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"\u00a7"}}
+/tellraw @a {"text":"copy to clipboard","clickEvent":{"action":"copy_to_clipboard","value":"\u00b9\u00b2\u00b3"}}
 ```
     
 ## hoverEvent 
