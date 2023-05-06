@@ -52,12 +52,12 @@ This repository contains some different datapacks I have collected and made.
 - [Movable Armour Stands](./Datapacks/Movable%20Armour%20Stands) - modify armour stands
 - [World Pregenerator](./Datapacks/World%20Pregenerator) - generates worlds
 - [Example](./Datapacks/Example) - blank template
-- and more
+- [and more](./Datapacks)
 
 It also contains various `.mcfunction`, `mcmeta`, and `.json` examples:
 
 - [raycasting.mcfunction](./Datapacks/raycasting.mcfunction) - raycasting example
-- and more
+- [and more](./Datapacks)
 
 # Plugins
 A plugin (or a multiplayer plug-in) is an additive file for a Minecraft multiplayer server. Plugins do not change the game itself, as a mod does. Plugins are usually written in java and end in `.jar`.    
@@ -144,7 +144,7 @@ Some skript may require:
 - [usertracker.sk](./Skript/usertracker.sk)
 - [worldedit.sk](./Skript/worldedit.sk)
 - [worldgui.sk](./Skript/worldgui.sk)
-- and more
+- [and more](./Skript)
 
 # Mods
 
@@ -167,7 +167,7 @@ ZenScript is a domain-specific scripting language used in the popular modding fr
 - [diamond sword recipe.zs](./ZenScript/diamond_sword_recipe.zs) - changes diamond sword recipe
 - [iron pickaxe recipe.zs](./ZenScript/iron_pickaxe_recipe.zs) - changes iron pickaxe recipe
 - [custom recipe.zs](./ZenScript/custom_recipe.zs) - create custom recipe
-- and more
+- [and more](./ZenScript)
 
 # Contributing
 
