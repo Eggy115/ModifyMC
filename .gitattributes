@@ -1,1 +1,1 @@
-*.sk linguist-language=Java
+*.sk linguist-language=mcfunction # technically not mcfunction but Skript isn't recognised by Linguist
